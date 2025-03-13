@@ -5,6 +5,9 @@ This is a simple example of how to stream data from a Flask server to a client.
 > [!NOTE]
 > **These instructions are for unix-based systems (i.e. MacOS, Linux). Before you proceed, make sure that you have installed `python` and `pip`. If you have not, follow [these](https://packaging.python.org/en/latest/tutorials/installing-packages/) instructions to do so.**
 
+> [!WARNING]
+> **The format of the messages returned by the server is important. Read more [here](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#examples).**
+
 #### 1. Create Python virtual environment:
 ```
 python3 -m venv .venv
@@ -40,6 +43,3 @@ data: Data chunk 3
 
 ... 
 ```
-
-> [!WARNING]
-> The format of the messages returned by the server is important. Read more [here](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#examples).
