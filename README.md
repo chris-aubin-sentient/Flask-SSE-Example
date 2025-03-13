@@ -1,6 +1,6 @@
 # Flask Streaming Example
 
-This is a simple example of how to stream data from a Flask server to a client.
+This is a simple example of how to stream events from a Flask server to a client using Server-Sent Events (SSE).
 
 > [!NOTE]
 > **These instructions are for unix-based systems (i.e. MacOS, Linux). Before you proceed, make sure that you have installed `python` and `pip`. If you have not, follow [these](https://packaging.python.org/en/latest/tutorials/installing-packages/) instructions to do so.**
