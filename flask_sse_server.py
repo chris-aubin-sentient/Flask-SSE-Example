@@ -14,16 +14,7 @@ def generate_data():
 
 @app.route('/stream')
 def stream():
-    return Response(
-        generate_data(),
-        content_type='text/event-stream',
-        # Streaming will work without this, but leaving it here for posterity
-        headers={
-            'Cache-Control': 'no-cache',
-            'Transfer-Encoding': 'chunked',
-            'X-Accel-Buffering': 'no' 
-        }
-    )
+    return Response(generate_data(), content_type='text/event-stream')
 
 
 if __name__ == '__main__':

@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 #### 4. Run the script:
 ```
-python3 flask_server.py
+python3 flask_sse_server.py
 ```
 
 #### 5. Use a tool like [CuRL](https://curl.se/) or [Postman](https://www.postman.com/) to query the server:
